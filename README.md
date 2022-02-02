@@ -15,26 +15,26 @@ Third server: React server
 below are the steps to run the servers.
 Just run the following command in respected directory using Command Promt or visual studio provided terminal
 
->Car-Rental-project> cd server
+>Car-Rental> cd server
 >
->Car-Rental-project>server> npm i
->
-(wait for the process to complete)
->Car-Rental-project>server> npm run auth
-
-
->Car-Rental-project> cd car-rental-client
->
->Car-Rental-project>car-rental-client> npm i
+>Car-Rental>server> npm i
 >
 (wait for the process to complete)
+>Car-Rental>server> npm run auth
 
->car-Rental-project>car-rental-client> npx json-server --watch db.json
 
-
->Car-Rental-project> cd car-rental-client
+>Car-Rental> cd car-rental-client
 >
->Car-Rental-project>car-rental-client> npm start
+>Car-Rental>car-rental-client> npm i
+>
+(wait for the process to complete)
+
+>car-Rental>car-rental-client> npx json-server --watch db.json
+
+
+>Car-Rental> cd car-rental-client
+>
+>Car-Rental>car-rental-client> npm start
 >
 
 
