@@ -1,0 +1,586 @@
+
+
+
+
+
+
+/* Section One start */
+
+a {
+	text-decoration: none!important;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+ul.social-icons li {
+	display: inline-block;
+	margin-right: 3px;
+}
+
+ul.social-icons li:last-child {
+	margin-right: 0px;
+}
+
+ul.social-icons li a {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	line-height: 50px;
+	background-color: #eee;
+	color: #121212;
+	font-size: 18px;
+	text-align: center;
+	transition: all .3s;
+}
+
+ul.social-icons li a:hover {
+	background-color: #f33f3f;
+	color: #fff;
+}
+
+a.filled-button {
+	background-color: #f33f3f;
+	color: #fff;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 300;
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	transition: all 0.3s;
+}
+
+a.filled-button:hover {
+	background-color: #121212;
+	color: #fff;
+}
+
+.section-heading {
+	text-align: left;
+	margin-bottom: 60px;
+	border-bottom: 1px solid #eee;
+}
+
+.section-heading h2 {
+	font-size: 28px;
+	font-weight: 400;
+	color: #1e1e1e;
+	margin-bottom: 15px;
+}
+
+.page-heading {
+	padding: 210px 0px 130px 0px;
+	text-align: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.page-heading .text-content h4 {
+	color: #f33f3f;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.page-heading .text-content h2 {
+	color: #fff;
+	font-size: 62px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+
+
+
+/* Section One end */
+
+.CardDisplay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 87%;
+    margin: 0 auto;
+}
+
+.card{
+    margin: 20px;
+}
+
+.card-body{
+    background-color:rgb(209, 208, 204);
+}
+
+.card-img-top{
+    height: 162px;
+}
+
+.carouselContainer{
+    width: 50%;
+    height: 430px;
+    margin: 0 auto;
+}
+
+.carouselControlIcon{
+    width: 50px;
+}
+
+.carousel-item img{
+    height: 400px;
+}
+
+.loginBtn{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.loginBtn a{
+    margin: 10px;
+}
+
+#carImage{
+    width: 500px;
+	border-radius: 40px;
+	overflow: hidden;
+}
+
+.cartItem{
+    width: 80%;
+    height: 150px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(212, 247, 248);
+}
+
+.cartItem img{
+    width: 250px;
+}
+
+
+
+.loginFormContainer {
+    width: 40%;
+    height: fit-content;
+    margin: 50px auto;
+}
+
+.cartDetails img{
+    width: 50px;
+}
+
+/* Navbar starts */
+
+header {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	background-color: #232323;
+}
+header .navbar {
+	padding: 17px 0px;
+}
+.background-header .navbar {
+	padding: 17px 0px;
+}
+.background-header {
+	top: 0;
+	position: fixed;
+	background-color: #fff!important;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+}
+.background-header .navbar-brand h2 {
+	color: #121212!important;
+}
+.background-header .navbar-nav a.nav-link {
+	color: #1e1e1e!important;
+}
+.background-header .navbar-nav .nav-link:hover,
+.background-header .navbar-nav .active>.nav-link,
+.background-header .navbar-nav .nav-link.active,
+.background-header .navbar-nav .nav-link.show,
+.background-header .navbar-nav .show>.nav-link {
+	color: #f33f3f!important;
+}
+.navbar .navbar-brand {
+	float: 	left;
+	margin-top: -12px;
+	outline: none;
+}
+.navbar .navbar-brand h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+    transition: all .3s ease 0s;
+}
+.navbar .navbar-brand h2 em {
+	font-style: normal;
+	color: #f33f3f;
+}
+#navbarResponsive {
+	z-index: 999;
+}
+.navbar-collapse {
+	text-align: center;
+}
+.navbar .navbar-nav .nav-item {
+	margin: 0px 15px;
+}
+.navbar .navbar-nav a.nav-link {
+	text-transform: capitalize;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: #fff;
+	transition: all 0.5s;
+	margin-top: 5px;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .show>.nav-link {
+	color: #fff;
+	padding-bottom: 25px;
+	border-bottom: 3px solid #f33f3f;
+}
+.navbar .navbar-toggler-icon {
+	background-image: none;
+}
+.navbar .navbar-toggler {
+	border-color: #fff;
+	background-color: #fff;	
+	height: 36px;
+	outline: none;
+	border-radius: 0px;
+	position: absolute;
+	right: 30px;
+	top: 20px;
+}
+.navbar .navbar-toggler-icon:after {
+	content: '\f0c9';
+	color: #f33f3f;
+	font-size: 18px;
+	line-height: 26px;
+	font-family: 'FontAwesome';
+}
+
+.navbar-text img{
+    width: 40px;
+    margin-right: 50px;
+    display: inline;
+}
+
+.cartIcon{
+    position: relative;
+    left: -29px;
+    bottom: 53px;
+	color: white;
+}
+
+
+/* Navbar ends */
+
+.latest-products {
+	margin-top: 100px;
+}
+
+.section-heading a {
+	float: right;
+	margin-top: -35px;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	color: #f33f3f;
+}
+
+.product-item {
+	border: 2px solid rgb(243, 219, 219);
+	margin-bottom: 30px;
+}
+
+.product-item .down-content {
+	padding: 30px;
+	position: relative;
+}
+
+.product-item img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.product-item .down-content h4 {
+	font-size: 17px;
+	color: #1a6692;
+	margin-bottom: 20px;
+}
+
+.product-item .down-content h6 {
+	font-size: 18px;
+	margin-bottom: 15px;
+	color: #121212;
+}
+
+.product-item .down-content h6 small{
+	color: #999;
+}
+
+.product-item .down-content p {
+	margin-bottom: 20px;
+}
+
+.product-item .down-content ul li {
+	display: inline-block;
+}
+
+.product-item .down-content ul li i {
+	color: #f33f3f;
+	font-size: 14px;
+}
+
+.product-item .down-content span {
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	font-size: 13px;
+	color: #f33f3f;
+	font-weight: 500;
+}
+
+.product-item .down-content span a {
+	color: #f33f3f;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+
+.modal-dialog { 
+	margin-top: 10%; 
+}
+
+.homepageContainer{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	height: 400px;
+}
+
+.homepageFlex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 80%;
+
+}
+
+.borderBox{
+	border: 1px solid rgb(12, 4, 24);
+	height: 80%;
+	width: 30%;
+	box-shadow: 5px 10px rgb(189, 152, 238) ;
+	color: black;
+	text-align: center;
+	padding-top: 7%;
+	border-radius: 10px;
+}
+
+.one{
+	background-color: rgb(143, 60, 252);
+}
+
+.two{
+	background-color: rgb(145, 231, 111);
+}
+
+.three{
+	background-color: rgb(103, 211, 238);
+}
+
+.listbookingContainer{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.carDetailContainer{
+	width: 60%;
+	height: 300px;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ListBooking Cutomer part */
+
+.listbooking{
+	width: 90%;
+	height: 200px;
+	margin: 30px auto;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: rgb(215, 223, 220);
+	box-shadow: 5px 10px rgb(194, 196, 195);
+}
+
+.listBookingUpper{
+	height: 70%;
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.listBookingLower{
+	height: 20%;
+	width: 95%;
+}
+
+.progressbar{
+	height: 1px;
+	width: 90%;
+	border: 1px solid #B026FF;
+	background-color: #B026FF;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.pending{
+	height: 15px;
+	width: 15px;
+	border: 2px solid #B026FF;
+	border-radius: 15px;
+	background-color: #B026FF;
+}
+.cancelled{
+	height: 15px;
+	width: 15px;
+	border: 2px solid #ec0a0a;
+	border-radius: 15px;
+	background-color: #ec0a0a;
+}
+.booked{
+	height: 15px;
+	width: 15px;
+	border: 2px solid #B026FF;
+	border-radius: 15px;
+	background-color: #B026FF;
+}
+
+.pendingLeft{
+	height: 15px;
+	width: 15px;
+	border: 2px solid #B026FF;
+	border-radius: 15px;
+	background-color: white;
+}
+
+.checkingLeft{
+	height: 15px;
+	width: 15px;
+	border: 2px solid #B026FF;
+	border-radius: 15px;
+	background-color: white;
+}
+
+.confirmationLeft{
+	height: 15px;
+	width: 15px;
+	border: 2px solid #B026FF;
+	border-radius: 15px;
+	background-color: white;
+}
+
+.listbookingCard{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.bookingCard{
+	width: 80%;
+	height: 150px;
+	margin: 20px auto;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.bookingCardImage img{
+	height: 145px;
+}
+
+.bookingCardData{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin: 20px;
+}
+
+.bookingCardAvailablity{
+	display: flex;
+	flex-direction: column;
+	width: 314px;
+	margin: 20px;
+}
+
+span h3{
+	display: inline;
+}
+
+span h2{
+	display: inline;
+}
+
+span h4{
+	display: inline;
+}
+
+span h5{
+	display: inline;
+}
+
+.bookingCardButton{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 20px;
+}
+.notAvailable{
+	height: 300px;
+	width: 80%;
+	margin: 0 auto;
+	color: black;
+}
+.ListCar{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.ListCarInput{
+	width: 40%;
+	margin: 20px auto;
+	font-size: 20px;
+}
+
+/* footer */
+
+.footer{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin: 30px;
+}
