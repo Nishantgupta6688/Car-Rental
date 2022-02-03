@@ -576,6 +576,22 @@ span h5{
 	font-size: 20px;
 }
 
+/* Cart */
+
+.cartContainer{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.cartDateContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-evenly;
+}
+
 /* footer */
 
 .footer{
