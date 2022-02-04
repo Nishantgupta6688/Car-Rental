@@ -17,7 +17,7 @@ Just run the following command in respected directory using Command Promt or vis
 
 >Car-Rental> cd server
 >
->Car-Rental>server> npm i
+>Car-Rental>server> npm i (run only once to install the dependencies)
 >
 (wait for the process to complete)
 >Car-Rental>server> npm run auth
@@ -25,7 +25,7 @@ Just run the following command in respected directory using Command Promt or vis
 
 >Car-Rental> cd car-rental-client
 >
->Car-Rental>car-rental-client> npm i
+>Car-Rental>car-rental-client> npm i  (run only once to install the dependencies)
 >
 (wait for the process to complete)
 
